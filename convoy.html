@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Convoy Homework</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="convoy.css" type="text/css" rel="stylesheet"/>
+  <script src="convoy.js"></script>
+</head>
+<body>
+
+
+<div class="page">
+    <nav class="navbar navbar-expand-sm navbar-convoy">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#">
+        <img src="convoy.png" alt="logo" height="17" width="112">
+      </a>
+      
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-link-convoy" href="#"><span class="nav-word-padding">Offers</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-convoy" href="#"><span class="nav-word-padding">My Jobs</span></a>
+        </li>
+      </ul>
+    </nav>
+
+   
+    <section> 
+      
+            <nav class="navbar navbar-expand-sm dropdown-convoy">
+              
+              <ul class="navbar-nav">
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle link-convoy" href="#" id="navbardrop" data-toggle="dropdown">
+                        <span class="non-link">Sort by: </span><span id = "select" class="recent">Most Recent</span><img src="iconv.png" alt="logo" height="9" width="13">
+                    </a>
+                    <div id="menu" class="dropdown-menu">
+                      
+                    </div>
+                </li>
+              </ul>
+            </nav>
+        
+   
+
+            <div id="loading" style="display: none">
+              <img src="loading.gif" />
+              Loading ...
+            </div>
+
+            <div id="show"> 
+            </div>
+
+    </section>  
+
+    <footer>
+        <p>YiRu's Homework</p>
+    </footer>
+
+</div>
+
+
+</body>
+</html>
